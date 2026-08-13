@@ -1,4 +1,4 @@
-# pract1-DAA-1 
+# pract-DAA-1 
 SUMMARY
 1.Bubble Sort
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
@@ -31,7 +31,7 @@ CONCLUSION:
 The notebook demonstrates how different sorting algorithms perform and highlights the importance of time and space complexity. Bubble Sort, Selection Sort, and Insertion Sort are simple and easy to understand but become inefficient for large datasets because their average or worst-case performance is O(n²). Merge Sort provides consistently good performance of O(n log n), making it suitable for large datasets. Quick Sort also generally performs very efficiently with O(n log n) average performance, although its worst case can reach O(n²).
 
 Overall, Merge Sort and Quick Sort are more suitable for large inputs, while Insertion Sort can be effective for small or nearly sorted arrays. The execution-time measurements in the notebook can be used to experimentally observe these theoretical difference
-# pract1-DAA-2
+# pract-DAA-2
 SUMMARY:
 1.Linear Search
 Checks each element of the array one by one until the target element is found.
@@ -53,8 +53,8 @@ The notebook demonstrates the difference between Linear Search and Binary Search
 Binary Search is significantly more efficient for large sorted datasets because it reduces the search space by half during every iteration, resulting in O(log n) time complexity. However, it requires the input data to be sorted before searching.
 
 Overall, Linear Search is suitable for small or unsorted datasets, while Binary Search is preferable for large, sorted datasets because of its much faster search performance.
-# pract1-DAA-3
-summery:
+# pract-DAA-3
+summary:
 
 The practical implements Heap Sort using Min-Heap and Max-Heap in Python with the heapq library. The Min-Heap implementation sorts the elements in ascending order, while the Max-Heap implementation sorts them in descending order by using negative values. The program also measures the execution time using time.perf_counter() and displays the sorted array along with the time complexity.
 
