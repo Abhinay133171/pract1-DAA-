@@ -25,7 +25,9 @@ Worst case: O(n²)
 Space: O(n) for this particular implementation.
 
 Each algorithm takes numbers from the user, sorts them, displays the sorted array, and measures execution time using Python's
-CONCLUSION OF PRACT-1
+
+CONCLUSION:
+
 The notebook demonstrates how different sorting algorithms perform and highlights the importance of time and space complexity. Bubble Sort, Selection Sort, and Insertion Sort are simple and easy to understand but become inefficient for large datasets because their average or worst-case performance is O(n²). Merge Sort provides consistently good performance of O(n log n), making it suitable for large datasets. Quick Sort also generally performs very efficiently with O(n log n) average performance, although its worst case can reach O(n²).
 
 Overall, Merge Sort and Quick Sort are more suitable for large inputs, while Insertion Sort can be effective for small or nearly sorted arrays. The execution-time measurements in the notebook can be used to experimentally observe these theoretical difference
@@ -43,7 +45,9 @@ The input array must be sorted for binary search to work correctly.
 Time Complexity: O(log n)
 It compares the target with the middle element and eliminates half of the remaining elements after each comparison.
 Like linear search, the program displays whether the element was found and measures its execution time.
-Conclusion:
+
+CONCLUSION:
+
 The notebook demonstrates the difference between Linear Search and Binary Search in terms of searching technique and efficiency. Linear Search is simple and can be used with both sorted and unsorted data, but its O(n) time complexity makes it slower for large datasets.
 
 Binary Search is significantly more efficient for large sorted datasets because it reduces the search space by half during every iteration, resulting in O(log n) time complexity. However, it requires the input data to be sorted before searching.
@@ -53,3 +57,7 @@ Overall, Linear Search is suitable for small or unsorted datasets, while Binary 
 summery:
 
 The practical implements Heap Sort using Min-Heap and Max-Heap in Python with the heapq library. The Min-Heap implementation sorts the elements in ascending order, while the Max-Heap implementation sorts them in descending order by using negative values. The program also measures the execution time using time.perf_counter() and displays the sorted array along with the time complexity.
+
+CONCLUSION:
+
+Thus, Heap Sort is an efficient comparison-based sorting technique based on the heap data structure. Both Min-Heap and Max-Heap approaches provide a time complexity of O(n log n) for best, average, and worst cases. The practical demonstrates how heaps can be effectively used to sort data in both ascending and descending order while also analyzing the algorithm's execution time.
