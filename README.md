@@ -29,3 +29,5 @@ CONCLUSION OF PRACT-1
 The notebook demonstrates how different sorting algorithms perform and highlights the importance of time and space complexity. Bubble Sort, Selection Sort, and Insertion Sort are simple and easy to understand but become inefficient for large datasets because their average or worst-case performance is O(n²). Merge Sort provides consistently good performance of O(n log n), making it suitable for large datasets. Quick Sort also generally performs very efficiently with O(n log n) average performance, although its worst case can reach O(n²).
 
 Overall, Merge Sort and Quick Sort are more suitable for large inputs, while Insertion Sort can be effective for small or nearly sorted arrays. The execution-time measurements in the notebook can be used to experimentally observe these theoretical differences.
+#PRACT-DAA-1
+
