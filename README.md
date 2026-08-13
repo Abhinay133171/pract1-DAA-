@@ -51,3 +51,5 @@ Binary Search is significantly more efficient for large sorted datasets because 
 Overall, Linear Search is suitable for small or unsorted datasets, while Binary Search is preferable for large, sorted datasets because of its much faster search performance.
 # pract1-DAA-3
 summery:
+
+The practical implements Heap Sort using Min-Heap and Max-Heap in Python with the heapq library. The Min-Heap implementation sorts the elements in ascending order, while the Max-Heap implementation sorts them in descending order by using negative values. The program also measures the execution time using time.perf_counter() and displays the sorted array along with the time complexity.
