@@ -61,3 +61,11 @@ The practical implements Heap Sort using Min-Heap and Max-Heap in Python with th
 CONCLUSION:
 
 Thus, Heap Sort is an efficient comparison-based sorting technique based on the heap data structure. Both Min-Heap and Max-Heap approaches provide a time complexity of O(n log n) for best, average, and worst cases. The practical demonstrates how heaps can be effectively used to sort data in both ascending and descending order while also analyzing the algorithm's execution time.
+# pract-DAA-3
+summary:
+
+The program calculates the factorial of a given number using two approaches: iterative and recursive methods. The iterative method uses a for loop to multiply numbers from 1 to n, while the recursive method repeatedly calls itself with n-1 until it reaches the base case of 0 or 1. Both methods produce the same factorial result and have a time complexity of O(n). The execution time of each method is also measured using Python's time module.
+
+CONCLUSION:
+
+Both iterative and recursive methods successfully calculate the factorial of a number. The iterative method is generally more memory-efficient because it does not use the function call stack, whereas the recursive method is simpler and demonstrates the concept of recursion. For large values of n, the iterative approach is usually preferred because recursion can cause stack-depth limitations. Thus, both methods have the same time complexity, but the iterative method has an advantage in terms of space efficiency.
