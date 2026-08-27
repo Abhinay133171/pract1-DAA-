@@ -1,5 +1,7 @@
 # pract-DAA-1 
+
 SUMMARY
+
 1.Bubble Sort
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 Best case: O(n)
@@ -32,7 +34,9 @@ The notebook demonstrates how different sorting algorithms perform and highlight
 
 Overall, Merge Sort and Quick Sort are more suitable for large inputs, while Insertion Sort can be effective for small or nearly sorted arrays. The execution-time measurements in the notebook can be used to experimentally observe these theoretical difference
 # pract-DAA-2
+
 SUMMARY:
+
 1.Linear Search
 Checks each element of the array one by one until the target element is found.
 It works on both sorted and unsorted arrays.
@@ -54,6 +58,7 @@ Binary Search is significantly more efficient for large sorted datasets because 
 
 Overall, Linear Search is suitable for small or unsorted datasets, while Binary Search is preferable for large, sorted datasets because of its much faster search performance.
 # pract-DAA-3
+
 summary:
 
 The practical implements Heap Sort using Min-Heap and Max-Heap in Python with the heapq library. The Min-Heap implementation sorts the elements in ascending order, while the Max-Heap implementation sorts them in descending order by using negative values. The program also measures the execution time using time.perf_counter() and displays the sorted array along with the time complexity.
@@ -62,6 +67,7 @@ CONCLUSION:
 
 Thus, Heap Sort is an efficient comparison-based sorting technique based on the heap data structure. Both Min-Heap and Max-Heap approaches provide a time complexity of O(n log n) for best, average, and worst cases. The practical demonstrates how heaps can be effectively used to sort data in both ascending and descending order while also analyzing the algorithm's execution time.
 # pract-DAA-4
+
 summary:
 
 The program calculates the factorial of a given number using two approaches: iterative and recursive methods. The iterative method uses a for loop to multiply numbers from 1 to n, while the recursive method repeatedly calls itself with n-1 until it reaches the base case of 0 or 1. Both methods produce the same factorial result and have a time complexity of O(n). The execution time of each method is also measured using Python's time module.
@@ -71,13 +77,16 @@ CONCLUSION:
 Both iterative and recursive methods successfully calculate the factorial of a number. The iterative method is generally more memory-efficient because it does not use the function call stack, whereas the recursive method is simpler and demonstrates the concept of recursion. For large values of n, the iterative approach is usually preferred because recursion can cause stack-depth limitations. Thus, both methods have the same time complexity, but the iterative method has an advantage in terms of space efficiency.
 
 # pract-DAA-5
+
 summary:
+
 The 0/1 Knapsack Problem is solved using Dynamic Programming. The knapsack() function creates a DP table where each entry stores the maximum profit possible for a given number of items and a given weight capacity. For every item, the algorithm checks whether including it gives more profit than excluding it. The maximum value is stored in the table, and the final answer is dp[n][W]. For the given weights [1, 3, 4, 5], values [1, 4, 5, 7], and capacity 7, the maximum profit is 9.
 
 CONCLUSION:
 
 Thus, the 0/1 Knapsack problem was successfully implemented using Dynamic Programming. The algorithm efficiently finds the maximum possible profit while keeping the total weight within the given capacity. This demonstrates how dynamic programming can be used to solve optimization problems by breaking them into smaller subproblems and storing their results for reuse.
 # pract-DAA-6
+
 summary:
 
 Matrix Chain Multiplication is an optimization problem solved efficiently using Dynamic Programming. The algorithm divides the matrix chain into smaller subchains and calculates the minimum number of scalar multiplications required for each subchain. The results are stored in a DP table to avoid repeated calculations.
@@ -86,6 +95,7 @@ CONCLUSION:
 
 Thus, the Matrix Chain Multiplication problem was successfully implemented using Dynamic Programming. The algorithm finds the most efficient order of multiplying matrices and minimizes the total number of scalar multiplications. This demonstrates the usefulness of dynamic programming in solving optimization problems efficiently.
 # pract-DAA-7
+
 summary:
 
 The Making Change Problem is solved using Dynamic Programming by dividing the problem into smaller subproblems. An array dp stores the minimum number of coins required to make each amount from 0 to the given amount. The solution for a larger amount is obtained using previously calculated smaller amounts. This avoids repeated calculations and makes the algorithm more efficient.
