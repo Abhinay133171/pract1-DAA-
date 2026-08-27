@@ -73,6 +73,7 @@ Both iterative and recursive methods successfully calculate the factorial of a n
 # pract-DAA-5
 summary:
 The 0/1 Knapsack Problem is solved using Dynamic Programming. The knapsack() function creates a DP table where each entry stores the maximum profit possible for a given number of items and a given weight capacity. For every item, the algorithm checks whether including it gives more profit than excluding it. The maximum value is stored in the table, and the final answer is dp[n][W]. For the given weights [1, 3, 4, 5], values [1, 4, 5, 7], and capacity 7, the maximum profit is 9.
+
 CONCLUSION:
 
 Thus, the 0/1 Knapsack problem was successfully implemented using Dynamic Programming. The algorithm efficiently finds the maximum possible profit while keeping the total weight within the given capacity. This demonstrates how dynamic programming can be used to solve optimization problems by breaking them into smaller subproblems and storing their results for reuse.
