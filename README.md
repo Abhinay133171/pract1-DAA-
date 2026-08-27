@@ -77,3 +77,19 @@ The 0/1 Knapsack Problem is solved using Dynamic Programming. The knapsack() fun
 CONCLUSION:
 
 Thus, the 0/1 Knapsack problem was successfully implemented using Dynamic Programming. The algorithm efficiently finds the maximum possible profit while keeping the total weight within the given capacity. This demonstrates how dynamic programming can be used to solve optimization problems by breaking them into smaller subproblems and storing their results for reuse.
+# pract-DAA-6
+summary:
+
+Matrix Chain Multiplication is an optimization problem solved efficiently using Dynamic Programming. The algorithm divides the matrix chain into smaller subchains and calculates the minimum number of scalar multiplications required for each subchain. The results are stored in a DP table to avoid repeated calculations.
+
+CONCLUSION:
+
+Thus, the Matrix Chain Multiplication problem was successfully implemented using Dynamic Programming. The algorithm finds the most efficient order of multiplying matrices and minimizes the total number of scalar multiplications. This demonstrates the usefulness of dynamic programming in solving optimization problems efficiently.
+# pract-DAA-7
+summary:
+
+The Making Change Problem is solved using Dynamic Programming by dividing the problem into smaller subproblems. An array dp stores the minimum number of coins required to make each amount from 0 to the given amount. The solution for a larger amount is obtained using previously calculated smaller amounts. This avoids repeated calculations and makes the algorithm more efficient.
+
+CONCLUSION:
+
+The Dynamic Programming approach provides an efficient solution to the Making Change Problem. It finds the minimum number of coins required to form the target amount and works well when there are many possible combinations of coins. The time complexity is O(n × A), where n is the number of coin denominations and A is the target amount. The space complexity is O(A).
