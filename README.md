@@ -103,3 +103,30 @@ The Making Change Problem is solved using Dynamic Programming by dividing the pr
 CONCLUSION:
 
 The Dynamic Programming approach provides an efficient solution to the Making Change Problem. It finds the minimum number of coins required to form the target amount and works well when there are many possible combinations of coins. The time complexity is O(n × A), where n is the number of coin denominations and A is the target amount. The space complexity is O(A).
+
+# pract-DAA-8
+Summary
+
+The program implements graph traversal using Depth First Search (DFS) and Breadth First Search (BFS). DFS explores a graph deeply before backtracking, while BFS explores the graph level by level. DFS uses recursion or a stack, whereas BFS uses a queue.
+
+Conclusion
+
+DFS and BFS are efficient graph-searching techniques. DFS is useful for deep exploration and path-related problems, while BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph. Both algorithms have a time complexity of O(V + E).
+
+# pract-DAA-9
+Summary
+
+Prim’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, connected, undirected graph. It starts with one vertex and repeatedly selects the minimum-weight edge that connects a selected vertex to an unselected vertex.
+
+Conclusion
+
+Prim’s algorithm efficiently constructs a Minimum Spanning Tree by adding the minimum-cost edge at each step without creating unnecessary connections. For the given graph, the MST has a minimum cost of 13. The implementation using an adjacency matrix has a time complexity of O(V²).
+
+# pract-DAA-10
+Summary
+
+Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree. It first sorts all edges according to their weights and then selects the smallest edges one by one while avoiding cycles. The Union-Find technique is used to detect cycles.
+
+Conclusion
+
+Kruskal’s algorithm provides an efficient way to construct a Minimum Spanning Tree by selecting the lowest-weight edges without forming cycles. For the given graph, the MST has a minimum cost of 13. Its time complexity is O(E log E) because the edges must be sorted.
